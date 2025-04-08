@@ -2,7 +2,7 @@ import os
 from PIL import Image
 from PIL import GifImagePlugin
 
-gif = Image.open(r"J:\Glowy eyes\python stuff\new\eyes.gif")
+gif = Image.open(r"J:\LED-Grid-FastLED-Controller-for-Arduino\python stuff\new\eyes.gif")
 gifData = gif.load()
 
 width, height = gif.size
@@ -19,7 +19,7 @@ frames = gif.n_frames
 if not FileExistsError:
     os.mkdir("pic2")
 
-with open(r"J:\Glowy eyes\python stuff\new\pic2\pic2.ino", "w") as file:
+with open(r"J:\LED-Grid-FastLED-Controller-for-Arduino\python stuff\new\pic2\pic2.ino", "w") as file:
 
     code = f"""//LED library and pins
 #include <FastLED.h>
@@ -54,8 +54,8 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
 
     for f in range(1, frames):
         gif.seek(f)
-        gif.save(r"J:\Glowy eyes\python stuff\new\pic2\_temp.bmp")
-        img = Image.open(r"J:\Glowy eyes\python stuff\new\pic2\_temp.bmp")
+        gif.save(r"J:\LED-Grid-FastLED-Controller-for-Arduino\python stuff\new\pic2\_temp.bmp")
+        img = Image.open(r"J:\LED-Grid-FastLED-Controller-for-Arduino\python stuff\new\pic2\_temp.bmp")
         imgData = img.load()
 
         for g in range (nGrids):
