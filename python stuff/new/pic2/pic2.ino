@@ -22,7 +22,7 @@ int LEDloc = NUM_LEDS - 1;
 
 FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( TypicalLEDStrip );
 
-//Serial.begin(9600);
+Serial.begin(9600);
 
     rgb[0][0][0] = 0 * intensity / 100;
     rgb[0][1][0] = 0 * intensity / 100;
@@ -60,25 +60,25 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[8][1][0] = 0 * intensity / 100;
     rgb[8][2][0] = 0 * intensity / 100; 
     
-    rgb[9][0][0] = 88 * intensity / 100;
-    rgb[9][1][0] = 215 * intensity / 100;
-    rgb[9][2][0] = 101 * intensity / 100; 
+    rgb[9][0][0] = 215 * intensity / 100;
+    rgb[9][1][0] = 80 * intensity / 100;
+    rgb[9][2][0] = 156 * intensity / 100; 
     
     rgb[10][0][0] = 0 * intensity / 100;
     rgb[10][1][0] = 0 * intensity / 100;
     rgb[10][2][0] = 0 * intensity / 100; 
     
-    rgb[11][0][0] = 88 * intensity / 100;
-    rgb[11][1][0] = 215 * intensity / 100;
-    rgb[11][2][0] = 101 * intensity / 100; 
+    rgb[11][0][0] = 215 * intensity / 100;
+    rgb[11][1][0] = 80 * intensity / 100;
+    rgb[11][2][0] = 156 * intensity / 100; 
     
-    rgb[12][0][0] = 88 * intensity / 100;
-    rgb[12][1][0] = 215 * intensity / 100;
-    rgb[12][2][0] = 101 * intensity / 100; 
+    rgb[12][0][0] = 215 * intensity / 100;
+    rgb[12][1][0] = 80 * intensity / 100;
+    rgb[12][2][0] = 156 * intensity / 100; 
     
-    rgb[13][0][0] = 88 * intensity / 100;
-    rgb[13][1][0] = 215 * intensity / 100;
-    rgb[13][2][0] = 101 * intensity / 100; 
+    rgb[13][0][0] = 215 * intensity / 100;
+    rgb[13][1][0] = 80 * intensity / 100;
+    rgb[13][2][0] = 156 * intensity / 100; 
     
     rgb[14][0][0] = 0 * intensity / 100;
     rgb[14][1][0] = 0 * intensity / 100;
@@ -96,21 +96,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[17][1][0] = 0 * intensity / 100;
     rgb[17][2][0] = 0 * intensity / 100; 
     
-    rgb[18][0][0] = 88 * intensity / 100;
-    rgb[18][1][0] = 215 * intensity / 100;
-    rgb[18][2][0] = 101 * intensity / 100; 
+    rgb[18][0][0] = 215 * intensity / 100;
+    rgb[18][1][0] = 80 * intensity / 100;
+    rgb[18][2][0] = 156 * intensity / 100; 
     
-    rgb[19][0][0] = 88 * intensity / 100;
-    rgb[19][1][0] = 215 * intensity / 100;
-    rgb[19][2][0] = 101 * intensity / 100; 
+    rgb[19][0][0] = 215 * intensity / 100;
+    rgb[19][1][0] = 80 * intensity / 100;
+    rgb[19][2][0] = 156 * intensity / 100; 
     
-    rgb[20][0][0] = 88 * intensity / 100;
-    rgb[20][1][0] = 215 * intensity / 100;
-    rgb[20][2][0] = 101 * intensity / 100; 
+    rgb[20][0][0] = 215 * intensity / 100;
+    rgb[20][1][0] = 80 * intensity / 100;
+    rgb[20][2][0] = 156 * intensity / 100; 
     
-    rgb[21][0][0] = 88 * intensity / 100;
-    rgb[21][1][0] = 215 * intensity / 100;
-    rgb[21][2][0] = 101 * intensity / 100; 
+    rgb[21][0][0] = 215 * intensity / 100;
+    rgb[21][1][0] = 80 * intensity / 100;
+    rgb[21][2][0] = 156 * intensity / 100; 
     
     rgb[22][0][0] = 0 * intensity / 100;
     rgb[22][1][0] = 0 * intensity / 100;
@@ -132,17 +132,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[26][1][0] = 0 * intensity / 100;
     rgb[26][2][0] = 0 * intensity / 100; 
     
-    rgb[27][0][0] = 88 * intensity / 100;
-    rgb[27][1][0] = 215 * intensity / 100;
-    rgb[27][2][0] = 101 * intensity / 100; 
+    rgb[27][0][0] = 215 * intensity / 100;
+    rgb[27][1][0] = 80 * intensity / 100;
+    rgb[27][2][0] = 156 * intensity / 100; 
     
-    rgb[28][0][0] = 88 * intensity / 100;
-    rgb[28][1][0] = 215 * intensity / 100;
-    rgb[28][2][0] = 101 * intensity / 100; 
+    rgb[28][0][0] = 215 * intensity / 100;
+    rgb[28][1][0] = 80 * intensity / 100;
+    rgb[28][2][0] = 156 * intensity / 100; 
     
-    rgb[29][0][0] = 88 * intensity / 100;
-    rgb[29][1][0] = 215 * intensity / 100;
-    rgb[29][2][0] = 101 * intensity / 100; 
+    rgb[29][0][0] = 215 * intensity / 100;
+    rgb[29][1][0] = 80 * intensity / 100;
+    rgb[29][2][0] = 156 * intensity / 100; 
     
     rgb[30][0][0] = 0 * intensity / 100;
     rgb[30][1][0] = 0 * intensity / 100;
@@ -164,17 +164,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[34][1][0] = 0 * intensity / 100;
     rgb[34][2][0] = 0 * intensity / 100; 
     
-    rgb[35][0][0] = 88 * intensity / 100;
-    rgb[35][1][0] = 215 * intensity / 100;
-    rgb[35][2][0] = 101 * intensity / 100; 
+    rgb[35][0][0] = 215 * intensity / 100;
+    rgb[35][1][0] = 80 * intensity / 100;
+    rgb[35][2][0] = 156 * intensity / 100; 
     
-    rgb[36][0][0] = 88 * intensity / 100;
-    rgb[36][1][0] = 215 * intensity / 100;
-    rgb[36][2][0] = 101 * intensity / 100; 
+    rgb[36][0][0] = 215 * intensity / 100;
+    rgb[36][1][0] = 80 * intensity / 100;
+    rgb[36][2][0] = 156 * intensity / 100; 
     
-    rgb[37][0][0] = 88 * intensity / 100;
-    rgb[37][1][0] = 215 * intensity / 100;
-    rgb[37][2][0] = 101 * intensity / 100; 
+    rgb[37][0][0] = 215 * intensity / 100;
+    rgb[37][1][0] = 80 * intensity / 100;
+    rgb[37][2][0] = 156 * intensity / 100; 
     
     rgb[38][0][0] = 0 * intensity / 100;
     rgb[38][1][0] = 0 * intensity / 100;
@@ -196,17 +196,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[42][1][0] = 0 * intensity / 100;
     rgb[42][2][0] = 0 * intensity / 100; 
     
-    rgb[43][0][0] = 88 * intensity / 100;
-    rgb[43][1][0] = 215 * intensity / 100;
-    rgb[43][2][0] = 101 * intensity / 100; 
+    rgb[43][0][0] = 215 * intensity / 100;
+    rgb[43][1][0] = 80 * intensity / 100;
+    rgb[43][2][0] = 156 * intensity / 100; 
     
-    rgb[44][0][0] = 88 * intensity / 100;
-    rgb[44][1][0] = 215 * intensity / 100;
-    rgb[44][2][0] = 101 * intensity / 100; 
+    rgb[44][0][0] = 215 * intensity / 100;
+    rgb[44][1][0] = 80 * intensity / 100;
+    rgb[44][2][0] = 156 * intensity / 100; 
     
-    rgb[45][0][0] = 88 * intensity / 100;
-    rgb[45][1][0] = 215 * intensity / 100;
-    rgb[45][2][0] = 101 * intensity / 100; 
+    rgb[45][0][0] = 215 * intensity / 100;
+    rgb[45][1][0] = 80 * intensity / 100;
+    rgb[45][2][0] = 156 * intensity / 100; 
     
     rgb[46][0][0] = 0 * intensity / 100;
     rgb[46][1][0] = 0 * intensity / 100;
@@ -228,17 +228,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[50][1][0] = 0 * intensity / 100;
     rgb[50][2][0] = 0 * intensity / 100; 
     
-    rgb[51][0][0] = 88 * intensity / 100;
-    rgb[51][1][0] = 215 * intensity / 100;
-    rgb[51][2][0] = 101 * intensity / 100; 
+    rgb[51][0][0] = 215 * intensity / 100;
+    rgb[51][1][0] = 80 * intensity / 100;
+    rgb[51][2][0] = 156 * intensity / 100; 
     
-    rgb[52][0][0] = 88 * intensity / 100;
-    rgb[52][1][0] = 215 * intensity / 100;
-    rgb[52][2][0] = 101 * intensity / 100; 
+    rgb[52][0][0] = 215 * intensity / 100;
+    rgb[52][1][0] = 80 * intensity / 100;
+    rgb[52][2][0] = 156 * intensity / 100; 
     
-    rgb[53][0][0] = 88 * intensity / 100;
-    rgb[53][1][0] = 215 * intensity / 100;
-    rgb[53][2][0] = 101 * intensity / 100; 
+    rgb[53][0][0] = 215 * intensity / 100;
+    rgb[53][1][0] = 80 * intensity / 100;
+    rgb[53][2][0] = 156 * intensity / 100; 
     
     rgb[54][0][0] = 0 * intensity / 100;
     rgb[54][1][0] = 0 * intensity / 100;
@@ -324,25 +324,25 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[73][1][0] = 0 * intensity / 100;
     rgb[73][2][0] = 0 * intensity / 100; 
     
-    rgb[74][0][0] = 88 * intensity / 100;
-    rgb[74][1][0] = 215 * intensity / 100;
-    rgb[74][2][0] = 101 * intensity / 100; 
+    rgb[74][0][0] = 215 * intensity / 100;
+    rgb[74][1][0] = 80 * intensity / 100;
+    rgb[74][2][0] = 156 * intensity / 100; 
     
-    rgb[75][0][0] = 88 * intensity / 100;
-    rgb[75][1][0] = 215 * intensity / 100;
-    rgb[75][2][0] = 101 * intensity / 100; 
+    rgb[75][0][0] = 215 * intensity / 100;
+    rgb[75][1][0] = 80 * intensity / 100;
+    rgb[75][2][0] = 156 * intensity / 100; 
     
-    rgb[76][0][0] = 88 * intensity / 100;
-    rgb[76][1][0] = 215 * intensity / 100;
-    rgb[76][2][0] = 101 * intensity / 100; 
+    rgb[76][0][0] = 215 * intensity / 100;
+    rgb[76][1][0] = 80 * intensity / 100;
+    rgb[76][2][0] = 156 * intensity / 100; 
     
     rgb[77][0][0] = 0 * intensity / 100;
     rgb[77][1][0] = 0 * intensity / 100;
     rgb[77][2][0] = 0 * intensity / 100; 
     
-    rgb[78][0][0] = 88 * intensity / 100;
-    rgb[78][1][0] = 215 * intensity / 100;
-    rgb[78][2][0] = 101 * intensity / 100; 
+    rgb[78][0][0] = 215 * intensity / 100;
+    rgb[78][1][0] = 80 * intensity / 100;
+    rgb[78][2][0] = 156 * intensity / 100; 
     
     rgb[79][0][0] = 0 * intensity / 100;
     rgb[79][1][0] = 0 * intensity / 100;
@@ -356,21 +356,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[81][1][0] = 0 * intensity / 100;
     rgb[81][2][0] = 0 * intensity / 100; 
     
-    rgb[82][0][0] = 88 * intensity / 100;
-    rgb[82][1][0] = 215 * intensity / 100;
-    rgb[82][2][0] = 101 * intensity / 100; 
+    rgb[82][0][0] = 215 * intensity / 100;
+    rgb[82][1][0] = 80 * intensity / 100;
+    rgb[82][2][0] = 156 * intensity / 100; 
     
-    rgb[83][0][0] = 88 * intensity / 100;
-    rgb[83][1][0] = 215 * intensity / 100;
-    rgb[83][2][0] = 101 * intensity / 100; 
+    rgb[83][0][0] = 215 * intensity / 100;
+    rgb[83][1][0] = 80 * intensity / 100;
+    rgb[83][2][0] = 156 * intensity / 100; 
     
-    rgb[84][0][0] = 88 * intensity / 100;
-    rgb[84][1][0] = 215 * intensity / 100;
-    rgb[84][2][0] = 101 * intensity / 100; 
+    rgb[84][0][0] = 215 * intensity / 100;
+    rgb[84][1][0] = 80 * intensity / 100;
+    rgb[84][2][0] = 156 * intensity / 100; 
     
-    rgb[85][0][0] = 88 * intensity / 100;
-    rgb[85][1][0] = 215 * intensity / 100;
-    rgb[85][2][0] = 101 * intensity / 100; 
+    rgb[85][0][0] = 215 * intensity / 100;
+    rgb[85][1][0] = 80 * intensity / 100;
+    rgb[85][2][0] = 156 * intensity / 100; 
     
     rgb[86][0][0] = 0 * intensity / 100;
     rgb[86][1][0] = 0 * intensity / 100;
@@ -388,17 +388,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[89][1][0] = 0 * intensity / 100;
     rgb[89][2][0] = 0 * intensity / 100; 
     
-    rgb[90][0][0] = 88 * intensity / 100;
-    rgb[90][1][0] = 215 * intensity / 100;
-    rgb[90][2][0] = 101 * intensity / 100; 
+    rgb[90][0][0] = 215 * intensity / 100;
+    rgb[90][1][0] = 80 * intensity / 100;
+    rgb[90][2][0] = 156 * intensity / 100; 
     
-    rgb[91][0][0] = 88 * intensity / 100;
-    rgb[91][1][0] = 215 * intensity / 100;
-    rgb[91][2][0] = 101 * intensity / 100; 
+    rgb[91][0][0] = 215 * intensity / 100;
+    rgb[91][1][0] = 80 * intensity / 100;
+    rgb[91][2][0] = 156 * intensity / 100; 
     
-    rgb[92][0][0] = 88 * intensity / 100;
-    rgb[92][1][0] = 215 * intensity / 100;
-    rgb[92][2][0] = 101 * intensity / 100; 
+    rgb[92][0][0] = 215 * intensity / 100;
+    rgb[92][1][0] = 80 * intensity / 100;
+    rgb[92][2][0] = 156 * intensity / 100; 
     
     rgb[93][0][0] = 0 * intensity / 100;
     rgb[93][1][0] = 0 * intensity / 100;
@@ -420,17 +420,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[97][1][0] = 0 * intensity / 100;
     rgb[97][2][0] = 0 * intensity / 100; 
     
-    rgb[98][0][0] = 88 * intensity / 100;
-    rgb[98][1][0] = 215 * intensity / 100;
-    rgb[98][2][0] = 101 * intensity / 100; 
+    rgb[98][0][0] = 215 * intensity / 100;
+    rgb[98][1][0] = 80 * intensity / 100;
+    rgb[98][2][0] = 156 * intensity / 100; 
     
-    rgb[99][0][0] = 88 * intensity / 100;
-    rgb[99][1][0] = 215 * intensity / 100;
-    rgb[99][2][0] = 101 * intensity / 100; 
+    rgb[99][0][0] = 215 * intensity / 100;
+    rgb[99][1][0] = 80 * intensity / 100;
+    rgb[99][2][0] = 156 * intensity / 100; 
     
-    rgb[100][0][0] = 88 * intensity / 100;
-    rgb[100][1][0] = 215 * intensity / 100;
-    rgb[100][2][0] = 101 * intensity / 100; 
+    rgb[100][0][0] = 215 * intensity / 100;
+    rgb[100][1][0] = 80 * intensity / 100;
+    rgb[100][2][0] = 156 * intensity / 100; 
     
     rgb[101][0][0] = 0 * intensity / 100;
     rgb[101][1][0] = 0 * intensity / 100;
@@ -452,17 +452,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][0] = 0 * intensity / 100;
     rgb[105][2][0] = 0 * intensity / 100; 
     
-    rgb[106][0][0] = 88 * intensity / 100;
-    rgb[106][1][0] = 215 * intensity / 100;
-    rgb[106][2][0] = 101 * intensity / 100; 
+    rgb[106][0][0] = 215 * intensity / 100;
+    rgb[106][1][0] = 80 * intensity / 100;
+    rgb[106][2][0] = 156 * intensity / 100; 
     
-    rgb[107][0][0] = 88 * intensity / 100;
-    rgb[107][1][0] = 215 * intensity / 100;
-    rgb[107][2][0] = 101 * intensity / 100; 
+    rgb[107][0][0] = 215 * intensity / 100;
+    rgb[107][1][0] = 80 * intensity / 100;
+    rgb[107][2][0] = 156 * intensity / 100; 
     
-    rgb[108][0][0] = 88 * intensity / 100;
-    rgb[108][1][0] = 215 * intensity / 100;
-    rgb[108][2][0] = 101 * intensity / 100; 
+    rgb[108][0][0] = 215 * intensity / 100;
+    rgb[108][1][0] = 80 * intensity / 100;
+    rgb[108][2][0] = 156 * intensity / 100; 
     
     rgb[109][0][0] = 0 * intensity / 100;
     rgb[109][1][0] = 0 * intensity / 100;
@@ -484,17 +484,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[113][1][0] = 0 * intensity / 100;
     rgb[113][2][0] = 0 * intensity / 100; 
     
-    rgb[114][0][0] = 88 * intensity / 100;
-    rgb[114][1][0] = 215 * intensity / 100;
-    rgb[114][2][0] = 101 * intensity / 100; 
+    rgb[114][0][0] = 215 * intensity / 100;
+    rgb[114][1][0] = 80 * intensity / 100;
+    rgb[114][2][0] = 156 * intensity / 100; 
     
-    rgb[115][0][0] = 88 * intensity / 100;
-    rgb[115][1][0] = 215 * intensity / 100;
-    rgb[115][2][0] = 101 * intensity / 100; 
+    rgb[115][0][0] = 215 * intensity / 100;
+    rgb[115][1][0] = 80 * intensity / 100;
+    rgb[115][2][0] = 156 * intensity / 100; 
     
-    rgb[116][0][0] = 88 * intensity / 100;
-    rgb[116][1][0] = 215 * intensity / 100;
-    rgb[116][2][0] = 101 * intensity / 100; 
+    rgb[116][0][0] = 215 * intensity / 100;
+    rgb[116][1][0] = 80 * intensity / 100;
+    rgb[116][2][0] = 156 * intensity / 100; 
     
     rgb[117][0][0] = 0 * intensity / 100;
     rgb[117][1][0] = 0 * intensity / 100;
@@ -580,9 +580,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[8][1][1] = 0 * intensity / 100;
     rgb[8][2][1] = 0 * intensity / 100; 
     
-    rgb[9][0][1] = 88 * intensity / 100;
-    rgb[9][1][1] = 215 * intensity / 100;
-    rgb[9][2][1] = 101 * intensity / 100; 
+    rgb[9][0][1] = 215 * intensity / 100;
+    rgb[9][1][1] = 80 * intensity / 100;
+    rgb[9][2][1] = 156 * intensity / 100; 
     
     rgb[10][0][1] = 0 * intensity / 100;
     rgb[10][1][1] = 0 * intensity / 100;
@@ -616,21 +616,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[17][1][1] = 0 * intensity / 100;
     rgb[17][2][1] = 0 * intensity / 100; 
     
-    rgb[18][0][1] = 88 * intensity / 100;
-    rgb[18][1][1] = 215 * intensity / 100;
-    rgb[18][2][1] = 101 * intensity / 100; 
+    rgb[18][0][1] = 215 * intensity / 100;
+    rgb[18][1][1] = 80 * intensity / 100;
+    rgb[18][2][1] = 156 * intensity / 100; 
     
-    rgb[19][0][1] = 88 * intensity / 100;
-    rgb[19][1][1] = 215 * intensity / 100;
-    rgb[19][2][1] = 101 * intensity / 100; 
+    rgb[19][0][1] = 215 * intensity / 100;
+    rgb[19][1][1] = 80 * intensity / 100;
+    rgb[19][2][1] = 156 * intensity / 100; 
     
-    rgb[20][0][1] = 88 * intensity / 100;
-    rgb[20][1][1] = 215 * intensity / 100;
-    rgb[20][2][1] = 101 * intensity / 100; 
+    rgb[20][0][1] = 215 * intensity / 100;
+    rgb[20][1][1] = 80 * intensity / 100;
+    rgb[20][2][1] = 156 * intensity / 100; 
     
-    rgb[21][0][1] = 88 * intensity / 100;
-    rgb[21][1][1] = 215 * intensity / 100;
-    rgb[21][2][1] = 101 * intensity / 100; 
+    rgb[21][0][1] = 215 * intensity / 100;
+    rgb[21][1][1] = 80 * intensity / 100;
+    rgb[21][2][1] = 156 * intensity / 100; 
     
     rgb[22][0][1] = 0 * intensity / 100;
     rgb[22][1][1] = 0 * intensity / 100;
@@ -652,17 +652,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[26][1][1] = 0 * intensity / 100;
     rgb[26][2][1] = 0 * intensity / 100; 
     
-    rgb[27][0][1] = 88 * intensity / 100;
-    rgb[27][1][1] = 215 * intensity / 100;
-    rgb[27][2][1] = 101 * intensity / 100; 
+    rgb[27][0][1] = 215 * intensity / 100;
+    rgb[27][1][1] = 80 * intensity / 100;
+    rgb[27][2][1] = 156 * intensity / 100; 
     
-    rgb[28][0][1] = 88 * intensity / 100;
-    rgb[28][1][1] = 215 * intensity / 100;
-    rgb[28][2][1] = 101 * intensity / 100; 
+    rgb[28][0][1] = 215 * intensity / 100;
+    rgb[28][1][1] = 80 * intensity / 100;
+    rgb[28][2][1] = 156 * intensity / 100; 
     
-    rgb[29][0][1] = 88 * intensity / 100;
-    rgb[29][1][1] = 215 * intensity / 100;
-    rgb[29][2][1] = 101 * intensity / 100; 
+    rgb[29][0][1] = 215 * intensity / 100;
+    rgb[29][1][1] = 80 * intensity / 100;
+    rgb[29][2][1] = 156 * intensity / 100; 
     
     rgb[30][0][1] = 0 * intensity / 100;
     rgb[30][1][1] = 0 * intensity / 100;
@@ -684,17 +684,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[34][1][1] = 0 * intensity / 100;
     rgb[34][2][1] = 0 * intensity / 100; 
     
-    rgb[35][0][1] = 88 * intensity / 100;
-    rgb[35][1][1] = 215 * intensity / 100;
-    rgb[35][2][1] = 101 * intensity / 100; 
+    rgb[35][0][1] = 215 * intensity / 100;
+    rgb[35][1][1] = 80 * intensity / 100;
+    rgb[35][2][1] = 156 * intensity / 100; 
     
-    rgb[36][0][1] = 88 * intensity / 100;
-    rgb[36][1][1] = 215 * intensity / 100;
-    rgb[36][2][1] = 101 * intensity / 100; 
+    rgb[36][0][1] = 215 * intensity / 100;
+    rgb[36][1][1] = 80 * intensity / 100;
+    rgb[36][2][1] = 156 * intensity / 100; 
     
-    rgb[37][0][1] = 88 * intensity / 100;
-    rgb[37][1][1] = 215 * intensity / 100;
-    rgb[37][2][1] = 101 * intensity / 100; 
+    rgb[37][0][1] = 215 * intensity / 100;
+    rgb[37][1][1] = 80 * intensity / 100;
+    rgb[37][2][1] = 156 * intensity / 100; 
     
     rgb[38][0][1] = 0 * intensity / 100;
     rgb[38][1][1] = 0 * intensity / 100;
@@ -716,17 +716,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[42][1][1] = 0 * intensity / 100;
     rgb[42][2][1] = 0 * intensity / 100; 
     
-    rgb[43][0][1] = 88 * intensity / 100;
-    rgb[43][1][1] = 215 * intensity / 100;
-    rgb[43][2][1] = 101 * intensity / 100; 
+    rgb[43][0][1] = 215 * intensity / 100;
+    rgb[43][1][1] = 80 * intensity / 100;
+    rgb[43][2][1] = 156 * intensity / 100; 
     
-    rgb[44][0][1] = 88 * intensity / 100;
-    rgb[44][1][1] = 215 * intensity / 100;
-    rgb[44][2][1] = 101 * intensity / 100; 
+    rgb[44][0][1] = 215 * intensity / 100;
+    rgb[44][1][1] = 80 * intensity / 100;
+    rgb[44][2][1] = 156 * intensity / 100; 
     
-    rgb[45][0][1] = 88 * intensity / 100;
-    rgb[45][1][1] = 215 * intensity / 100;
-    rgb[45][2][1] = 101 * intensity / 100; 
+    rgb[45][0][1] = 215 * intensity / 100;
+    rgb[45][1][1] = 80 * intensity / 100;
+    rgb[45][2][1] = 156 * intensity / 100; 
     
     rgb[46][0][1] = 0 * intensity / 100;
     rgb[46][1][1] = 0 * intensity / 100;
@@ -748,17 +748,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[50][1][1] = 0 * intensity / 100;
     rgb[50][2][1] = 0 * intensity / 100; 
     
-    rgb[51][0][1] = 88 * intensity / 100;
-    rgb[51][1][1] = 215 * intensity / 100;
-    rgb[51][2][1] = 101 * intensity / 100; 
+    rgb[51][0][1] = 215 * intensity / 100;
+    rgb[51][1][1] = 80 * intensity / 100;
+    rgb[51][2][1] = 156 * intensity / 100; 
     
-    rgb[52][0][1] = 88 * intensity / 100;
-    rgb[52][1][1] = 215 * intensity / 100;
-    rgb[52][2][1] = 101 * intensity / 100; 
+    rgb[52][0][1] = 215 * intensity / 100;
+    rgb[52][1][1] = 80 * intensity / 100;
+    rgb[52][2][1] = 156 * intensity / 100; 
     
-    rgb[53][0][1] = 88 * intensity / 100;
-    rgb[53][1][1] = 215 * intensity / 100;
-    rgb[53][2][1] = 101 * intensity / 100; 
+    rgb[53][0][1] = 215 * intensity / 100;
+    rgb[53][1][1] = 80 * intensity / 100;
+    rgb[53][2][1] = 156 * intensity / 100; 
     
     rgb[54][0][1] = 0 * intensity / 100;
     rgb[54][1][1] = 0 * intensity / 100;
@@ -860,9 +860,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[77][1][1] = 0 * intensity / 100;
     rgb[77][2][1] = 0 * intensity / 100; 
     
-    rgb[78][0][1] = 88 * intensity / 100;
-    rgb[78][1][1] = 215 * intensity / 100;
-    rgb[78][2][1] = 101 * intensity / 100; 
+    rgb[78][0][1] = 215 * intensity / 100;
+    rgb[78][1][1] = 80 * intensity / 100;
+    rgb[78][2][1] = 156 * intensity / 100; 
     
     rgb[79][0][1] = 0 * intensity / 100;
     rgb[79][1][1] = 0 * intensity / 100;
@@ -876,21 +876,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[81][1][1] = 0 * intensity / 100;
     rgb[81][2][1] = 0 * intensity / 100; 
     
-    rgb[82][0][1] = 88 * intensity / 100;
-    rgb[82][1][1] = 215 * intensity / 100;
-    rgb[82][2][1] = 101 * intensity / 100; 
+    rgb[82][0][1] = 215 * intensity / 100;
+    rgb[82][1][1] = 80 * intensity / 100;
+    rgb[82][2][1] = 156 * intensity / 100; 
     
-    rgb[83][0][1] = 88 * intensity / 100;
-    rgb[83][1][1] = 215 * intensity / 100;
-    rgb[83][2][1] = 101 * intensity / 100; 
+    rgb[83][0][1] = 215 * intensity / 100;
+    rgb[83][1][1] = 80 * intensity / 100;
+    rgb[83][2][1] = 156 * intensity / 100; 
     
-    rgb[84][0][1] = 88 * intensity / 100;
-    rgb[84][1][1] = 215 * intensity / 100;
-    rgb[84][2][1] = 101 * intensity / 100; 
+    rgb[84][0][1] = 215 * intensity / 100;
+    rgb[84][1][1] = 80 * intensity / 100;
+    rgb[84][2][1] = 156 * intensity / 100; 
     
-    rgb[85][0][1] = 88 * intensity / 100;
-    rgb[85][1][1] = 215 * intensity / 100;
-    rgb[85][2][1] = 101 * intensity / 100; 
+    rgb[85][0][1] = 215 * intensity / 100;
+    rgb[85][1][1] = 80 * intensity / 100;
+    rgb[85][2][1] = 156 * intensity / 100; 
     
     rgb[86][0][1] = 0 * intensity / 100;
     rgb[86][1][1] = 0 * intensity / 100;
@@ -908,17 +908,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[89][1][1] = 0 * intensity / 100;
     rgb[89][2][1] = 0 * intensity / 100; 
     
-    rgb[90][0][1] = 88 * intensity / 100;
-    rgb[90][1][1] = 215 * intensity / 100;
-    rgb[90][2][1] = 101 * intensity / 100; 
+    rgb[90][0][1] = 215 * intensity / 100;
+    rgb[90][1][1] = 80 * intensity / 100;
+    rgb[90][2][1] = 156 * intensity / 100; 
     
-    rgb[91][0][1] = 88 * intensity / 100;
-    rgb[91][1][1] = 215 * intensity / 100;
-    rgb[91][2][1] = 101 * intensity / 100; 
+    rgb[91][0][1] = 215 * intensity / 100;
+    rgb[91][1][1] = 80 * intensity / 100;
+    rgb[91][2][1] = 156 * intensity / 100; 
     
-    rgb[92][0][1] = 88 * intensity / 100;
-    rgb[92][1][1] = 215 * intensity / 100;
-    rgb[92][2][1] = 101 * intensity / 100; 
+    rgb[92][0][1] = 215 * intensity / 100;
+    rgb[92][1][1] = 80 * intensity / 100;
+    rgb[92][2][1] = 156 * intensity / 100; 
     
     rgb[93][0][1] = 0 * intensity / 100;
     rgb[93][1][1] = 0 * intensity / 100;
@@ -940,17 +940,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[97][1][1] = 0 * intensity / 100;
     rgb[97][2][1] = 0 * intensity / 100; 
     
-    rgb[98][0][1] = 88 * intensity / 100;
-    rgb[98][1][1] = 215 * intensity / 100;
-    rgb[98][2][1] = 101 * intensity / 100; 
+    rgb[98][0][1] = 215 * intensity / 100;
+    rgb[98][1][1] = 80 * intensity / 100;
+    rgb[98][2][1] = 156 * intensity / 100; 
     
-    rgb[99][0][1] = 88 * intensity / 100;
-    rgb[99][1][1] = 215 * intensity / 100;
-    rgb[99][2][1] = 101 * intensity / 100; 
+    rgb[99][0][1] = 215 * intensity / 100;
+    rgb[99][1][1] = 80 * intensity / 100;
+    rgb[99][2][1] = 156 * intensity / 100; 
     
-    rgb[100][0][1] = 88 * intensity / 100;
-    rgb[100][1][1] = 215 * intensity / 100;
-    rgb[100][2][1] = 101 * intensity / 100; 
+    rgb[100][0][1] = 215 * intensity / 100;
+    rgb[100][1][1] = 80 * intensity / 100;
+    rgb[100][2][1] = 156 * intensity / 100; 
     
     rgb[101][0][1] = 0 * intensity / 100;
     rgb[101][1][1] = 0 * intensity / 100;
@@ -972,17 +972,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][1] = 0 * intensity / 100;
     rgb[105][2][1] = 0 * intensity / 100; 
     
-    rgb[106][0][1] = 88 * intensity / 100;
-    rgb[106][1][1] = 215 * intensity / 100;
-    rgb[106][2][1] = 101 * intensity / 100; 
+    rgb[106][0][1] = 215 * intensity / 100;
+    rgb[106][1][1] = 80 * intensity / 100;
+    rgb[106][2][1] = 156 * intensity / 100; 
     
-    rgb[107][0][1] = 88 * intensity / 100;
-    rgb[107][1][1] = 215 * intensity / 100;
-    rgb[107][2][1] = 101 * intensity / 100; 
+    rgb[107][0][1] = 215 * intensity / 100;
+    rgb[107][1][1] = 80 * intensity / 100;
+    rgb[107][2][1] = 156 * intensity / 100; 
     
-    rgb[108][0][1] = 88 * intensity / 100;
-    rgb[108][1][1] = 215 * intensity / 100;
-    rgb[108][2][1] = 101 * intensity / 100; 
+    rgb[108][0][1] = 215 * intensity / 100;
+    rgb[108][1][1] = 80 * intensity / 100;
+    rgb[108][2][1] = 156 * intensity / 100; 
     
     rgb[109][0][1] = 0 * intensity / 100;
     rgb[109][1][1] = 0 * intensity / 100;
@@ -1004,17 +1004,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[113][1][1] = 0 * intensity / 100;
     rgb[113][2][1] = 0 * intensity / 100; 
     
-    rgb[114][0][1] = 88 * intensity / 100;
-    rgb[114][1][1] = 215 * intensity / 100;
-    rgb[114][2][1] = 101 * intensity / 100; 
+    rgb[114][0][1] = 215 * intensity / 100;
+    rgb[114][1][1] = 80 * intensity / 100;
+    rgb[114][2][1] = 156 * intensity / 100; 
     
-    rgb[115][0][1] = 88 * intensity / 100;
-    rgb[115][1][1] = 215 * intensity / 100;
-    rgb[115][2][1] = 101 * intensity / 100; 
+    rgb[115][0][1] = 215 * intensity / 100;
+    rgb[115][1][1] = 80 * intensity / 100;
+    rgb[115][2][1] = 156 * intensity / 100; 
     
-    rgb[116][0][1] = 88 * intensity / 100;
-    rgb[116][1][1] = 215 * intensity / 100;
-    rgb[116][2][1] = 101 * intensity / 100; 
+    rgb[116][0][1] = 215 * intensity / 100;
+    rgb[116][1][1] = 80 * intensity / 100;
+    rgb[116][2][1] = 156 * intensity / 100; 
     
     rgb[117][0][1] = 0 * intensity / 100;
     rgb[117][1][1] = 0 * intensity / 100;
@@ -1132,9 +1132,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[16][1][2] = 0 * intensity / 100;
     rgb[16][2][2] = 0 * intensity / 100; 
     
-    rgb[17][0][2] = 88 * intensity / 100;
-    rgb[17][1][2] = 215 * intensity / 100;
-    rgb[17][2][2] = 101 * intensity / 100; 
+    rgb[17][0][2] = 215 * intensity / 100;
+    rgb[17][1][2] = 80 * intensity / 100;
+    rgb[17][2][2] = 156 * intensity / 100; 
     
     rgb[18][0][2] = 0 * intensity / 100;
     rgb[18][1][2] = 0 * intensity / 100;
@@ -1168,21 +1168,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[25][1][2] = 0 * intensity / 100;
     rgb[25][2][2] = 0 * intensity / 100; 
     
-    rgb[26][0][2] = 88 * intensity / 100;
-    rgb[26][1][2] = 215 * intensity / 100;
-    rgb[26][2][2] = 101 * intensity / 100; 
+    rgb[26][0][2] = 215 * intensity / 100;
+    rgb[26][1][2] = 80 * intensity / 100;
+    rgb[26][2][2] = 156 * intensity / 100; 
     
-    rgb[27][0][2] = 88 * intensity / 100;
-    rgb[27][1][2] = 215 * intensity / 100;
-    rgb[27][2][2] = 101 * intensity / 100; 
+    rgb[27][0][2] = 215 * intensity / 100;
+    rgb[27][1][2] = 80 * intensity / 100;
+    rgb[27][2][2] = 156 * intensity / 100; 
     
-    rgb[28][0][2] = 88 * intensity / 100;
-    rgb[28][1][2] = 215 * intensity / 100;
-    rgb[28][2][2] = 101 * intensity / 100; 
+    rgb[28][0][2] = 215 * intensity / 100;
+    rgb[28][1][2] = 80 * intensity / 100;
+    rgb[28][2][2] = 156 * intensity / 100; 
     
-    rgb[29][0][2] = 88 * intensity / 100;
-    rgb[29][1][2] = 215 * intensity / 100;
-    rgb[29][2][2] = 101 * intensity / 100; 
+    rgb[29][0][2] = 215 * intensity / 100;
+    rgb[29][1][2] = 80 * intensity / 100;
+    rgb[29][2][2] = 156 * intensity / 100; 
     
     rgb[30][0][2] = 0 * intensity / 100;
     rgb[30][1][2] = 0 * intensity / 100;
@@ -1204,17 +1204,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[34][1][2] = 0 * intensity / 100;
     rgb[34][2][2] = 0 * intensity / 100; 
     
-    rgb[35][0][2] = 88 * intensity / 100;
-    rgb[35][1][2] = 215 * intensity / 100;
-    rgb[35][2][2] = 101 * intensity / 100; 
+    rgb[35][0][2] = 215 * intensity / 100;
+    rgb[35][1][2] = 80 * intensity / 100;
+    rgb[35][2][2] = 156 * intensity / 100; 
     
-    rgb[36][0][2] = 88 * intensity / 100;
-    rgb[36][1][2] = 215 * intensity / 100;
-    rgb[36][2][2] = 101 * intensity / 100; 
+    rgb[36][0][2] = 215 * intensity / 100;
+    rgb[36][1][2] = 80 * intensity / 100;
+    rgb[36][2][2] = 156 * intensity / 100; 
     
-    rgb[37][0][2] = 88 * intensity / 100;
-    rgb[37][1][2] = 215 * intensity / 100;
-    rgb[37][2][2] = 101 * intensity / 100; 
+    rgb[37][0][2] = 215 * intensity / 100;
+    rgb[37][1][2] = 80 * intensity / 100;
+    rgb[37][2][2] = 156 * intensity / 100; 
     
     rgb[38][0][2] = 0 * intensity / 100;
     rgb[38][1][2] = 0 * intensity / 100;
@@ -1236,17 +1236,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[42][1][2] = 0 * intensity / 100;
     rgb[42][2][2] = 0 * intensity / 100; 
     
-    rgb[43][0][2] = 88 * intensity / 100;
-    rgb[43][1][2] = 215 * intensity / 100;
-    rgb[43][2][2] = 101 * intensity / 100; 
+    rgb[43][0][2] = 215 * intensity / 100;
+    rgb[43][1][2] = 80 * intensity / 100;
+    rgb[43][2][2] = 156 * intensity / 100; 
     
-    rgb[44][0][2] = 88 * intensity / 100;
-    rgb[44][1][2] = 215 * intensity / 100;
-    rgb[44][2][2] = 101 * intensity / 100; 
+    rgb[44][0][2] = 215 * intensity / 100;
+    rgb[44][1][2] = 80 * intensity / 100;
+    rgb[44][2][2] = 156 * intensity / 100; 
     
-    rgb[45][0][2] = 88 * intensity / 100;
-    rgb[45][1][2] = 215 * intensity / 100;
-    rgb[45][2][2] = 101 * intensity / 100; 
+    rgb[45][0][2] = 215 * intensity / 100;
+    rgb[45][1][2] = 80 * intensity / 100;
+    rgb[45][2][2] = 156 * intensity / 100; 
     
     rgb[46][0][2] = 0 * intensity / 100;
     rgb[46][1][2] = 0 * intensity / 100;
@@ -1268,17 +1268,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[50][1][2] = 0 * intensity / 100;
     rgb[50][2][2] = 0 * intensity / 100; 
     
-    rgb[51][0][2] = 88 * intensity / 100;
-    rgb[51][1][2] = 215 * intensity / 100;
-    rgb[51][2][2] = 101 * intensity / 100; 
+    rgb[51][0][2] = 215 * intensity / 100;
+    rgb[51][1][2] = 80 * intensity / 100;
+    rgb[51][2][2] = 156 * intensity / 100; 
     
-    rgb[52][0][2] = 88 * intensity / 100;
-    rgb[52][1][2] = 215 * intensity / 100;
-    rgb[52][2][2] = 101 * intensity / 100; 
+    rgb[52][0][2] = 215 * intensity / 100;
+    rgb[52][1][2] = 80 * intensity / 100;
+    rgb[52][2][2] = 156 * intensity / 100; 
     
-    rgb[53][0][2] = 88 * intensity / 100;
-    rgb[53][1][2] = 215 * intensity / 100;
-    rgb[53][2][2] = 101 * intensity / 100; 
+    rgb[53][0][2] = 215 * intensity / 100;
+    rgb[53][1][2] = 80 * intensity / 100;
+    rgb[53][2][2] = 156 * intensity / 100; 
     
     rgb[54][0][2] = 0 * intensity / 100;
     rgb[54][1][2] = 0 * intensity / 100;
@@ -1412,9 +1412,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[85][1][2] = 0 * intensity / 100;
     rgb[85][2][2] = 0 * intensity / 100; 
     
-    rgb[86][0][2] = 88 * intensity / 100;
-    rgb[86][1][2] = 215 * intensity / 100;
-    rgb[86][2][2] = 101 * intensity / 100; 
+    rgb[86][0][2] = 215 * intensity / 100;
+    rgb[86][1][2] = 80 * intensity / 100;
+    rgb[86][2][2] = 156 * intensity / 100; 
     
     rgb[87][0][2] = 0 * intensity / 100;
     rgb[87][1][2] = 0 * intensity / 100;
@@ -1428,21 +1428,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[89][1][2] = 0 * intensity / 100;
     rgb[89][2][2] = 0 * intensity / 100; 
     
-    rgb[90][0][2] = 88 * intensity / 100;
-    rgb[90][1][2] = 215 * intensity / 100;
-    rgb[90][2][2] = 101 * intensity / 100; 
+    rgb[90][0][2] = 215 * intensity / 100;
+    rgb[90][1][2] = 80 * intensity / 100;
+    rgb[90][2][2] = 156 * intensity / 100; 
     
-    rgb[91][0][2] = 88 * intensity / 100;
-    rgb[91][1][2] = 215 * intensity / 100;
-    rgb[91][2][2] = 101 * intensity / 100; 
+    rgb[91][0][2] = 215 * intensity / 100;
+    rgb[91][1][2] = 80 * intensity / 100;
+    rgb[91][2][2] = 156 * intensity / 100; 
     
-    rgb[92][0][2] = 88 * intensity / 100;
-    rgb[92][1][2] = 215 * intensity / 100;
-    rgb[92][2][2] = 101 * intensity / 100; 
+    rgb[92][0][2] = 215 * intensity / 100;
+    rgb[92][1][2] = 80 * intensity / 100;
+    rgb[92][2][2] = 156 * intensity / 100; 
     
-    rgb[93][0][2] = 88 * intensity / 100;
-    rgb[93][1][2] = 215 * intensity / 100;
-    rgb[93][2][2] = 101 * intensity / 100; 
+    rgb[93][0][2] = 215 * intensity / 100;
+    rgb[93][1][2] = 80 * intensity / 100;
+    rgb[93][2][2] = 156 * intensity / 100; 
     
     rgb[94][0][2] = 0 * intensity / 100;
     rgb[94][1][2] = 0 * intensity / 100;
@@ -1460,17 +1460,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[97][1][2] = 0 * intensity / 100;
     rgb[97][2][2] = 0 * intensity / 100; 
     
-    rgb[98][0][2] = 88 * intensity / 100;
-    rgb[98][1][2] = 215 * intensity / 100;
-    rgb[98][2][2] = 101 * intensity / 100; 
+    rgb[98][0][2] = 215 * intensity / 100;
+    rgb[98][1][2] = 80 * intensity / 100;
+    rgb[98][2][2] = 156 * intensity / 100; 
     
-    rgb[99][0][2] = 88 * intensity / 100;
-    rgb[99][1][2] = 215 * intensity / 100;
-    rgb[99][2][2] = 101 * intensity / 100; 
+    rgb[99][0][2] = 215 * intensity / 100;
+    rgb[99][1][2] = 80 * intensity / 100;
+    rgb[99][2][2] = 156 * intensity / 100; 
     
-    rgb[100][0][2] = 88 * intensity / 100;
-    rgb[100][1][2] = 215 * intensity / 100;
-    rgb[100][2][2] = 101 * intensity / 100; 
+    rgb[100][0][2] = 215 * intensity / 100;
+    rgb[100][1][2] = 80 * intensity / 100;
+    rgb[100][2][2] = 156 * intensity / 100; 
     
     rgb[101][0][2] = 0 * intensity / 100;
     rgb[101][1][2] = 0 * intensity / 100;
@@ -1492,17 +1492,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][2] = 0 * intensity / 100;
     rgb[105][2][2] = 0 * intensity / 100; 
     
-    rgb[106][0][2] = 88 * intensity / 100;
-    rgb[106][1][2] = 215 * intensity / 100;
-    rgb[106][2][2] = 101 * intensity / 100; 
+    rgb[106][0][2] = 215 * intensity / 100;
+    rgb[106][1][2] = 80 * intensity / 100;
+    rgb[106][2][2] = 156 * intensity / 100; 
     
-    rgb[107][0][2] = 88 * intensity / 100;
-    rgb[107][1][2] = 215 * intensity / 100;
-    rgb[107][2][2] = 101 * intensity / 100; 
+    rgb[107][0][2] = 215 * intensity / 100;
+    rgb[107][1][2] = 80 * intensity / 100;
+    rgb[107][2][2] = 156 * intensity / 100; 
     
-    rgb[108][0][2] = 88 * intensity / 100;
-    rgb[108][1][2] = 215 * intensity / 100;
-    rgb[108][2][2] = 101 * intensity / 100; 
+    rgb[108][0][2] = 215 * intensity / 100;
+    rgb[108][1][2] = 80 * intensity / 100;
+    rgb[108][2][2] = 156 * intensity / 100; 
     
     rgb[109][0][2] = 0 * intensity / 100;
     rgb[109][1][2] = 0 * intensity / 100;
@@ -1524,17 +1524,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[113][1][2] = 0 * intensity / 100;
     rgb[113][2][2] = 0 * intensity / 100; 
     
-    rgb[114][0][2] = 88 * intensity / 100;
-    rgb[114][1][2] = 215 * intensity / 100;
-    rgb[114][2][2] = 101 * intensity / 100; 
+    rgb[114][0][2] = 215 * intensity / 100;
+    rgb[114][1][2] = 80 * intensity / 100;
+    rgb[114][2][2] = 156 * intensity / 100; 
     
-    rgb[115][0][2] = 88 * intensity / 100;
-    rgb[115][1][2] = 215 * intensity / 100;
-    rgb[115][2][2] = 101 * intensity / 100; 
+    rgb[115][0][2] = 215 * intensity / 100;
+    rgb[115][1][2] = 80 * intensity / 100;
+    rgb[115][2][2] = 156 * intensity / 100; 
     
-    rgb[116][0][2] = 88 * intensity / 100;
-    rgb[116][1][2] = 215 * intensity / 100;
-    rgb[116][2][2] = 101 * intensity / 100; 
+    rgb[116][0][2] = 215 * intensity / 100;
+    rgb[116][1][2] = 80 * intensity / 100;
+    rgb[116][2][2] = 156 * intensity / 100; 
     
     rgb[117][0][2] = 0 * intensity / 100;
     rgb[117][1][2] = 0 * intensity / 100;
@@ -1684,9 +1684,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[24][1][3] = 0 * intensity / 100;
     rgb[24][2][3] = 0 * intensity / 100; 
     
-    rgb[25][0][3] = 88 * intensity / 100;
-    rgb[25][1][3] = 215 * intensity / 100;
-    rgb[25][2][3] = 101 * intensity / 100; 
+    rgb[25][0][3] = 215 * intensity / 100;
+    rgb[25][1][3] = 80 * intensity / 100;
+    rgb[25][2][3] = 156 * intensity / 100; 
     
     rgb[26][0][3] = 0 * intensity / 100;
     rgb[26][1][3] = 0 * intensity / 100;
@@ -1720,21 +1720,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[33][1][3] = 0 * intensity / 100;
     rgb[33][2][3] = 0 * intensity / 100; 
     
-    rgb[34][0][3] = 88 * intensity / 100;
-    rgb[34][1][3] = 215 * intensity / 100;
-    rgb[34][2][3] = 101 * intensity / 100; 
+    rgb[34][0][3] = 215 * intensity / 100;
+    rgb[34][1][3] = 80 * intensity / 100;
+    rgb[34][2][3] = 156 * intensity / 100; 
     
-    rgb[35][0][3] = 88 * intensity / 100;
-    rgb[35][1][3] = 215 * intensity / 100;
-    rgb[35][2][3] = 101 * intensity / 100; 
+    rgb[35][0][3] = 215 * intensity / 100;
+    rgb[35][1][3] = 80 * intensity / 100;
+    rgb[35][2][3] = 156 * intensity / 100; 
     
-    rgb[36][0][3] = 88 * intensity / 100;
-    rgb[36][1][3] = 215 * intensity / 100;
-    rgb[36][2][3] = 101 * intensity / 100; 
+    rgb[36][0][3] = 215 * intensity / 100;
+    rgb[36][1][3] = 80 * intensity / 100;
+    rgb[36][2][3] = 156 * intensity / 100; 
     
-    rgb[37][0][3] = 88 * intensity / 100;
-    rgb[37][1][3] = 215 * intensity / 100;
-    rgb[37][2][3] = 101 * intensity / 100; 
+    rgb[37][0][3] = 215 * intensity / 100;
+    rgb[37][1][3] = 80 * intensity / 100;
+    rgb[37][2][3] = 156 * intensity / 100; 
     
     rgb[38][0][3] = 0 * intensity / 100;
     rgb[38][1][3] = 0 * intensity / 100;
@@ -1756,17 +1756,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[42][1][3] = 0 * intensity / 100;
     rgb[42][2][3] = 0 * intensity / 100; 
     
-    rgb[43][0][3] = 88 * intensity / 100;
-    rgb[43][1][3] = 215 * intensity / 100;
-    rgb[43][2][3] = 101 * intensity / 100; 
+    rgb[43][0][3] = 215 * intensity / 100;
+    rgb[43][1][3] = 80 * intensity / 100;
+    rgb[43][2][3] = 156 * intensity / 100; 
     
-    rgb[44][0][3] = 88 * intensity / 100;
-    rgb[44][1][3] = 215 * intensity / 100;
-    rgb[44][2][3] = 101 * intensity / 100; 
+    rgb[44][0][3] = 215 * intensity / 100;
+    rgb[44][1][3] = 80 * intensity / 100;
+    rgb[44][2][3] = 156 * intensity / 100; 
     
-    rgb[45][0][3] = 88 * intensity / 100;
-    rgb[45][1][3] = 215 * intensity / 100;
-    rgb[45][2][3] = 101 * intensity / 100; 
+    rgb[45][0][3] = 215 * intensity / 100;
+    rgb[45][1][3] = 80 * intensity / 100;
+    rgb[45][2][3] = 156 * intensity / 100; 
     
     rgb[46][0][3] = 0 * intensity / 100;
     rgb[46][1][3] = 0 * intensity / 100;
@@ -1964,9 +1964,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[93][1][3] = 0 * intensity / 100;
     rgb[93][2][3] = 0 * intensity / 100; 
     
-    rgb[94][0][3] = 88 * intensity / 100;
-    rgb[94][1][3] = 215 * intensity / 100;
-    rgb[94][2][3] = 101 * intensity / 100; 
+    rgb[94][0][3] = 215 * intensity / 100;
+    rgb[94][1][3] = 80 * intensity / 100;
+    rgb[94][2][3] = 156 * intensity / 100; 
     
     rgb[95][0][3] = 0 * intensity / 100;
     rgb[95][1][3] = 0 * intensity / 100;
@@ -1980,21 +1980,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[97][1][3] = 0 * intensity / 100;
     rgb[97][2][3] = 0 * intensity / 100; 
     
-    rgb[98][0][3] = 88 * intensity / 100;
-    rgb[98][1][3] = 215 * intensity / 100;
-    rgb[98][2][3] = 101 * intensity / 100; 
+    rgb[98][0][3] = 215 * intensity / 100;
+    rgb[98][1][3] = 80 * intensity / 100;
+    rgb[98][2][3] = 156 * intensity / 100; 
     
-    rgb[99][0][3] = 88 * intensity / 100;
-    rgb[99][1][3] = 215 * intensity / 100;
-    rgb[99][2][3] = 101 * intensity / 100; 
+    rgb[99][0][3] = 215 * intensity / 100;
+    rgb[99][1][3] = 80 * intensity / 100;
+    rgb[99][2][3] = 156 * intensity / 100; 
     
-    rgb[100][0][3] = 88 * intensity / 100;
-    rgb[100][1][3] = 215 * intensity / 100;
-    rgb[100][2][3] = 101 * intensity / 100; 
+    rgb[100][0][3] = 215 * intensity / 100;
+    rgb[100][1][3] = 80 * intensity / 100;
+    rgb[100][2][3] = 156 * intensity / 100; 
     
-    rgb[101][0][3] = 88 * intensity / 100;
-    rgb[101][1][3] = 215 * intensity / 100;
-    rgb[101][2][3] = 101 * intensity / 100; 
+    rgb[101][0][3] = 215 * intensity / 100;
+    rgb[101][1][3] = 80 * intensity / 100;
+    rgb[101][2][3] = 156 * intensity / 100; 
     
     rgb[102][0][3] = 0 * intensity / 100;
     rgb[102][1][3] = 0 * intensity / 100;
@@ -2012,17 +2012,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][3] = 0 * intensity / 100;
     rgb[105][2][3] = 0 * intensity / 100; 
     
-    rgb[106][0][3] = 88 * intensity / 100;
-    rgb[106][1][3] = 215 * intensity / 100;
-    rgb[106][2][3] = 101 * intensity / 100; 
+    rgb[106][0][3] = 215 * intensity / 100;
+    rgb[106][1][3] = 80 * intensity / 100;
+    rgb[106][2][3] = 156 * intensity / 100; 
     
-    rgb[107][0][3] = 88 * intensity / 100;
-    rgb[107][1][3] = 215 * intensity / 100;
-    rgb[107][2][3] = 101 * intensity / 100; 
+    rgb[107][0][3] = 215 * intensity / 100;
+    rgb[107][1][3] = 80 * intensity / 100;
+    rgb[107][2][3] = 156 * intensity / 100; 
     
-    rgb[108][0][3] = 88 * intensity / 100;
-    rgb[108][1][3] = 215 * intensity / 100;
-    rgb[108][2][3] = 101 * intensity / 100; 
+    rgb[108][0][3] = 215 * intensity / 100;
+    rgb[108][1][3] = 80 * intensity / 100;
+    rgb[108][2][3] = 156 * intensity / 100; 
     
     rgb[109][0][3] = 0 * intensity / 100;
     rgb[109][1][3] = 0 * intensity / 100;
@@ -2236,9 +2236,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[32][1][4] = 0 * intensity / 100;
     rgb[32][2][4] = 0 * intensity / 100; 
     
-    rgb[33][0][4] = 88 * intensity / 100;
-    rgb[33][1][4] = 215 * intensity / 100;
-    rgb[33][2][4] = 101 * intensity / 100; 
+    rgb[33][0][4] = 215 * intensity / 100;
+    rgb[33][1][4] = 80 * intensity / 100;
+    rgb[33][2][4] = 156 * intensity / 100; 
     
     rgb[34][0][4] = 0 * intensity / 100;
     rgb[34][1][4] = 0 * intensity / 100;
@@ -2272,21 +2272,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[41][1][4] = 0 * intensity / 100;
     rgb[41][2][4] = 0 * intensity / 100; 
     
-    rgb[42][0][4] = 88 * intensity / 100;
-    rgb[42][1][4] = 215 * intensity / 100;
-    rgb[42][2][4] = 101 * intensity / 100; 
+    rgb[42][0][4] = 215 * intensity / 100;
+    rgb[42][1][4] = 80 * intensity / 100;
+    rgb[42][2][4] = 156 * intensity / 100; 
     
-    rgb[43][0][4] = 88 * intensity / 100;
-    rgb[43][1][4] = 215 * intensity / 100;
-    rgb[43][2][4] = 101 * intensity / 100; 
+    rgb[43][0][4] = 215 * intensity / 100;
+    rgb[43][1][4] = 80 * intensity / 100;
+    rgb[43][2][4] = 156 * intensity / 100; 
     
-    rgb[44][0][4] = 88 * intensity / 100;
-    rgb[44][1][4] = 215 * intensity / 100;
-    rgb[44][2][4] = 101 * intensity / 100; 
+    rgb[44][0][4] = 215 * intensity / 100;
+    rgb[44][1][4] = 80 * intensity / 100;
+    rgb[44][2][4] = 156 * intensity / 100; 
     
-    rgb[45][0][4] = 88 * intensity / 100;
-    rgb[45][1][4] = 215 * intensity / 100;
-    rgb[45][2][4] = 101 * intensity / 100; 
+    rgb[45][0][4] = 215 * intensity / 100;
+    rgb[45][1][4] = 80 * intensity / 100;
+    rgb[45][2][4] = 156 * intensity / 100; 
     
     rgb[46][0][4] = 0 * intensity / 100;
     rgb[46][1][4] = 0 * intensity / 100;
@@ -2516,9 +2516,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[101][1][4] = 0 * intensity / 100;
     rgb[101][2][4] = 0 * intensity / 100; 
     
-    rgb[102][0][4] = 88 * intensity / 100;
-    rgb[102][1][4] = 215 * intensity / 100;
-    rgb[102][2][4] = 101 * intensity / 100; 
+    rgb[102][0][4] = 215 * intensity / 100;
+    rgb[102][1][4] = 80 * intensity / 100;
+    rgb[102][2][4] = 156 * intensity / 100; 
     
     rgb[103][0][4] = 0 * intensity / 100;
     rgb[103][1][4] = 0 * intensity / 100;
@@ -2532,21 +2532,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][4] = 0 * intensity / 100;
     rgb[105][2][4] = 0 * intensity / 100; 
     
-    rgb[106][0][4] = 88 * intensity / 100;
-    rgb[106][1][4] = 215 * intensity / 100;
-    rgb[106][2][4] = 101 * intensity / 100; 
+    rgb[106][0][4] = 215 * intensity / 100;
+    rgb[106][1][4] = 80 * intensity / 100;
+    rgb[106][2][4] = 156 * intensity / 100; 
     
-    rgb[107][0][4] = 88 * intensity / 100;
-    rgb[107][1][4] = 215 * intensity / 100;
-    rgb[107][2][4] = 101 * intensity / 100; 
+    rgb[107][0][4] = 215 * intensity / 100;
+    rgb[107][1][4] = 80 * intensity / 100;
+    rgb[107][2][4] = 156 * intensity / 100; 
     
-    rgb[108][0][4] = 88 * intensity / 100;
-    rgb[108][1][4] = 215 * intensity / 100;
-    rgb[108][2][4] = 101 * intensity / 100; 
+    rgb[108][0][4] = 215 * intensity / 100;
+    rgb[108][1][4] = 80 * intensity / 100;
+    rgb[108][2][4] = 156 * intensity / 100; 
     
-    rgb[109][0][4] = 88 * intensity / 100;
-    rgb[109][1][4] = 215 * intensity / 100;
-    rgb[109][2][4] = 101 * intensity / 100; 
+    rgb[109][0][4] = 215 * intensity / 100;
+    rgb[109][1][4] = 80 * intensity / 100;
+    rgb[109][2][4] = 156 * intensity / 100; 
     
     rgb[110][0][4] = 0 * intensity / 100;
     rgb[110][1][4] = 0 * intensity / 100;
@@ -2756,9 +2756,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[32][1][5] = 0 * intensity / 100;
     rgb[32][2][5] = 0 * intensity / 100; 
     
-    rgb[33][0][5] = 88 * intensity / 100;
-    rgb[33][1][5] = 215 * intensity / 100;
-    rgb[33][2][5] = 101 * intensity / 100; 
+    rgb[33][0][5] = 215 * intensity / 100;
+    rgb[33][1][5] = 80 * intensity / 100;
+    rgb[33][2][5] = 156 * intensity / 100; 
     
     rgb[34][0][5] = 0 * intensity / 100;
     rgb[34][1][5] = 0 * intensity / 100;
@@ -2792,21 +2792,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[41][1][5] = 0 * intensity / 100;
     rgb[41][2][5] = 0 * intensity / 100; 
     
-    rgb[42][0][5] = 88 * intensity / 100;
-    rgb[42][1][5] = 215 * intensity / 100;
-    rgb[42][2][5] = 101 * intensity / 100; 
+    rgb[42][0][5] = 215 * intensity / 100;
+    rgb[42][1][5] = 80 * intensity / 100;
+    rgb[42][2][5] = 156 * intensity / 100; 
     
-    rgb[43][0][5] = 88 * intensity / 100;
-    rgb[43][1][5] = 215 * intensity / 100;
-    rgb[43][2][5] = 101 * intensity / 100; 
+    rgb[43][0][5] = 215 * intensity / 100;
+    rgb[43][1][5] = 80 * intensity / 100;
+    rgb[43][2][5] = 156 * intensity / 100; 
     
-    rgb[44][0][5] = 88 * intensity / 100;
-    rgb[44][1][5] = 215 * intensity / 100;
-    rgb[44][2][5] = 101 * intensity / 100; 
+    rgb[44][0][5] = 215 * intensity / 100;
+    rgb[44][1][5] = 80 * intensity / 100;
+    rgb[44][2][5] = 156 * intensity / 100; 
     
-    rgb[45][0][5] = 88 * intensity / 100;
-    rgb[45][1][5] = 215 * intensity / 100;
-    rgb[45][2][5] = 101 * intensity / 100; 
+    rgb[45][0][5] = 215 * intensity / 100;
+    rgb[45][1][5] = 80 * intensity / 100;
+    rgb[45][2][5] = 156 * intensity / 100; 
     
     rgb[46][0][5] = 0 * intensity / 100;
     rgb[46][1][5] = 0 * intensity / 100;
@@ -3036,9 +3036,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[101][1][5] = 0 * intensity / 100;
     rgb[101][2][5] = 0 * intensity / 100; 
     
-    rgb[102][0][5] = 88 * intensity / 100;
-    rgb[102][1][5] = 215 * intensity / 100;
-    rgb[102][2][5] = 101 * intensity / 100; 
+    rgb[102][0][5] = 215 * intensity / 100;
+    rgb[102][1][5] = 80 * intensity / 100;
+    rgb[102][2][5] = 156 * intensity / 100; 
     
     rgb[103][0][5] = 0 * intensity / 100;
     rgb[103][1][5] = 0 * intensity / 100;
@@ -3052,21 +3052,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][5] = 0 * intensity / 100;
     rgb[105][2][5] = 0 * intensity / 100; 
     
-    rgb[106][0][5] = 88 * intensity / 100;
-    rgb[106][1][5] = 215 * intensity / 100;
-    rgb[106][2][5] = 101 * intensity / 100; 
+    rgb[106][0][5] = 215 * intensity / 100;
+    rgb[106][1][5] = 80 * intensity / 100;
+    rgb[106][2][5] = 156 * intensity / 100; 
     
-    rgb[107][0][5] = 88 * intensity / 100;
-    rgb[107][1][5] = 215 * intensity / 100;
-    rgb[107][2][5] = 101 * intensity / 100; 
+    rgb[107][0][5] = 215 * intensity / 100;
+    rgb[107][1][5] = 80 * intensity / 100;
+    rgb[107][2][5] = 156 * intensity / 100; 
     
-    rgb[108][0][5] = 88 * intensity / 100;
-    rgb[108][1][5] = 215 * intensity / 100;
-    rgb[108][2][5] = 101 * intensity / 100; 
+    rgb[108][0][5] = 215 * intensity / 100;
+    rgb[108][1][5] = 80 * intensity / 100;
+    rgb[108][2][5] = 156 * intensity / 100; 
     
-    rgb[109][0][5] = 88 * intensity / 100;
-    rgb[109][1][5] = 215 * intensity / 100;
-    rgb[109][2][5] = 101 * intensity / 100; 
+    rgb[109][0][5] = 215 * intensity / 100;
+    rgb[109][1][5] = 80 * intensity / 100;
+    rgb[109][2][5] = 156 * intensity / 100; 
     
     rgb[110][0][5] = 0 * intensity / 100;
     rgb[110][1][5] = 0 * intensity / 100;
@@ -3244,9 +3244,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[24][1][6] = 0 * intensity / 100;
     rgb[24][2][6] = 0 * intensity / 100; 
     
-    rgb[25][0][6] = 88 * intensity / 100;
-    rgb[25][1][6] = 215 * intensity / 100;
-    rgb[25][2][6] = 101 * intensity / 100; 
+    rgb[25][0][6] = 215 * intensity / 100;
+    rgb[25][1][6] = 80 * intensity / 100;
+    rgb[25][2][6] = 156 * intensity / 100; 
     
     rgb[26][0][6] = 0 * intensity / 100;
     rgb[26][1][6] = 0 * intensity / 100;
@@ -3280,21 +3280,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[33][1][6] = 0 * intensity / 100;
     rgb[33][2][6] = 0 * intensity / 100; 
     
-    rgb[34][0][6] = 88 * intensity / 100;
-    rgb[34][1][6] = 215 * intensity / 100;
-    rgb[34][2][6] = 101 * intensity / 100; 
+    rgb[34][0][6] = 215 * intensity / 100;
+    rgb[34][1][6] = 80 * intensity / 100;
+    rgb[34][2][6] = 156 * intensity / 100; 
     
-    rgb[35][0][6] = 88 * intensity / 100;
-    rgb[35][1][6] = 215 * intensity / 100;
-    rgb[35][2][6] = 101 * intensity / 100; 
+    rgb[35][0][6] = 215 * intensity / 100;
+    rgb[35][1][6] = 80 * intensity / 100;
+    rgb[35][2][6] = 156 * intensity / 100; 
     
-    rgb[36][0][6] = 88 * intensity / 100;
-    rgb[36][1][6] = 215 * intensity / 100;
-    rgb[36][2][6] = 101 * intensity / 100; 
+    rgb[36][0][6] = 215 * intensity / 100;
+    rgb[36][1][6] = 80 * intensity / 100;
+    rgb[36][2][6] = 156 * intensity / 100; 
     
-    rgb[37][0][6] = 88 * intensity / 100;
-    rgb[37][1][6] = 215 * intensity / 100;
-    rgb[37][2][6] = 101 * intensity / 100; 
+    rgb[37][0][6] = 215 * intensity / 100;
+    rgb[37][1][6] = 80 * intensity / 100;
+    rgb[37][2][6] = 156 * intensity / 100; 
     
     rgb[38][0][6] = 0 * intensity / 100;
     rgb[38][1][6] = 0 * intensity / 100;
@@ -3316,17 +3316,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[42][1][6] = 0 * intensity / 100;
     rgb[42][2][6] = 0 * intensity / 100; 
     
-    rgb[43][0][6] = 88 * intensity / 100;
-    rgb[43][1][6] = 215 * intensity / 100;
-    rgb[43][2][6] = 101 * intensity / 100; 
+    rgb[43][0][6] = 215 * intensity / 100;
+    rgb[43][1][6] = 80 * intensity / 100;
+    rgb[43][2][6] = 156 * intensity / 100; 
     
-    rgb[44][0][6] = 88 * intensity / 100;
-    rgb[44][1][6] = 215 * intensity / 100;
-    rgb[44][2][6] = 101 * intensity / 100; 
+    rgb[44][0][6] = 215 * intensity / 100;
+    rgb[44][1][6] = 80 * intensity / 100;
+    rgb[44][2][6] = 156 * intensity / 100; 
     
-    rgb[45][0][6] = 88 * intensity / 100;
-    rgb[45][1][6] = 215 * intensity / 100;
-    rgb[45][2][6] = 101 * intensity / 100; 
+    rgb[45][0][6] = 215 * intensity / 100;
+    rgb[45][1][6] = 80 * intensity / 100;
+    rgb[45][2][6] = 156 * intensity / 100; 
     
     rgb[46][0][6] = 0 * intensity / 100;
     rgb[46][1][6] = 0 * intensity / 100;
@@ -3524,9 +3524,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[93][1][6] = 0 * intensity / 100;
     rgb[93][2][6] = 0 * intensity / 100; 
     
-    rgb[94][0][6] = 88 * intensity / 100;
-    rgb[94][1][6] = 215 * intensity / 100;
-    rgb[94][2][6] = 101 * intensity / 100; 
+    rgb[94][0][6] = 215 * intensity / 100;
+    rgb[94][1][6] = 80 * intensity / 100;
+    rgb[94][2][6] = 156 * intensity / 100; 
     
     rgb[95][0][6] = 0 * intensity / 100;
     rgb[95][1][6] = 0 * intensity / 100;
@@ -3540,21 +3540,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[97][1][6] = 0 * intensity / 100;
     rgb[97][2][6] = 0 * intensity / 100; 
     
-    rgb[98][0][6] = 88 * intensity / 100;
-    rgb[98][1][6] = 215 * intensity / 100;
-    rgb[98][2][6] = 101 * intensity / 100; 
+    rgb[98][0][6] = 215 * intensity / 100;
+    rgb[98][1][6] = 80 * intensity / 100;
+    rgb[98][2][6] = 156 * intensity / 100; 
     
-    rgb[99][0][6] = 88 * intensity / 100;
-    rgb[99][1][6] = 215 * intensity / 100;
-    rgb[99][2][6] = 101 * intensity / 100; 
+    rgb[99][0][6] = 215 * intensity / 100;
+    rgb[99][1][6] = 80 * intensity / 100;
+    rgb[99][2][6] = 156 * intensity / 100; 
     
-    rgb[100][0][6] = 88 * intensity / 100;
-    rgb[100][1][6] = 215 * intensity / 100;
-    rgb[100][2][6] = 101 * intensity / 100; 
+    rgb[100][0][6] = 215 * intensity / 100;
+    rgb[100][1][6] = 80 * intensity / 100;
+    rgb[100][2][6] = 156 * intensity / 100; 
     
-    rgb[101][0][6] = 88 * intensity / 100;
-    rgb[101][1][6] = 215 * intensity / 100;
-    rgb[101][2][6] = 101 * intensity / 100; 
+    rgb[101][0][6] = 215 * intensity / 100;
+    rgb[101][1][6] = 80 * intensity / 100;
+    rgb[101][2][6] = 156 * intensity / 100; 
     
     rgb[102][0][6] = 0 * intensity / 100;
     rgb[102][1][6] = 0 * intensity / 100;
@@ -3572,17 +3572,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][6] = 0 * intensity / 100;
     rgb[105][2][6] = 0 * intensity / 100; 
     
-    rgb[106][0][6] = 88 * intensity / 100;
-    rgb[106][1][6] = 215 * intensity / 100;
-    rgb[106][2][6] = 101 * intensity / 100; 
+    rgb[106][0][6] = 215 * intensity / 100;
+    rgb[106][1][6] = 80 * intensity / 100;
+    rgb[106][2][6] = 156 * intensity / 100; 
     
-    rgb[107][0][6] = 88 * intensity / 100;
-    rgb[107][1][6] = 215 * intensity / 100;
-    rgb[107][2][6] = 101 * intensity / 100; 
+    rgb[107][0][6] = 215 * intensity / 100;
+    rgb[107][1][6] = 80 * intensity / 100;
+    rgb[107][2][6] = 156 * intensity / 100; 
     
-    rgb[108][0][6] = 88 * intensity / 100;
-    rgb[108][1][6] = 215 * intensity / 100;
-    rgb[108][2][6] = 101 * intensity / 100; 
+    rgb[108][0][6] = 215 * intensity / 100;
+    rgb[108][1][6] = 80 * intensity / 100;
+    rgb[108][2][6] = 156 * intensity / 100; 
     
     rgb[109][0][6] = 0 * intensity / 100;
     rgb[109][1][6] = 0 * intensity / 100;
@@ -3732,9 +3732,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[16][1][7] = 0 * intensity / 100;
     rgb[16][2][7] = 0 * intensity / 100; 
     
-    rgb[17][0][7] = 88 * intensity / 100;
-    rgb[17][1][7] = 215 * intensity / 100;
-    rgb[17][2][7] = 101 * intensity / 100; 
+    rgb[17][0][7] = 215 * intensity / 100;
+    rgb[17][1][7] = 80 * intensity / 100;
+    rgb[17][2][7] = 156 * intensity / 100; 
     
     rgb[18][0][7] = 0 * intensity / 100;
     rgb[18][1][7] = 0 * intensity / 100;
@@ -3768,21 +3768,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[25][1][7] = 0 * intensity / 100;
     rgb[25][2][7] = 0 * intensity / 100; 
     
-    rgb[26][0][7] = 88 * intensity / 100;
-    rgb[26][1][7] = 215 * intensity / 100;
-    rgb[26][2][7] = 101 * intensity / 100; 
+    rgb[26][0][7] = 215 * intensity / 100;
+    rgb[26][1][7] = 80 * intensity / 100;
+    rgb[26][2][7] = 156 * intensity / 100; 
     
-    rgb[27][0][7] = 88 * intensity / 100;
-    rgb[27][1][7] = 215 * intensity / 100;
-    rgb[27][2][7] = 101 * intensity / 100; 
+    rgb[27][0][7] = 215 * intensity / 100;
+    rgb[27][1][7] = 80 * intensity / 100;
+    rgb[27][2][7] = 156 * intensity / 100; 
     
-    rgb[28][0][7] = 88 * intensity / 100;
-    rgb[28][1][7] = 215 * intensity / 100;
-    rgb[28][2][7] = 101 * intensity / 100; 
+    rgb[28][0][7] = 215 * intensity / 100;
+    rgb[28][1][7] = 80 * intensity / 100;
+    rgb[28][2][7] = 156 * intensity / 100; 
     
-    rgb[29][0][7] = 88 * intensity / 100;
-    rgb[29][1][7] = 215 * intensity / 100;
-    rgb[29][2][7] = 101 * intensity / 100; 
+    rgb[29][0][7] = 215 * intensity / 100;
+    rgb[29][1][7] = 80 * intensity / 100;
+    rgb[29][2][7] = 156 * intensity / 100; 
     
     rgb[30][0][7] = 0 * intensity / 100;
     rgb[30][1][7] = 0 * intensity / 100;
@@ -3804,17 +3804,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[34][1][7] = 0 * intensity / 100;
     rgb[34][2][7] = 0 * intensity / 100; 
     
-    rgb[35][0][7] = 88 * intensity / 100;
-    rgb[35][1][7] = 215 * intensity / 100;
-    rgb[35][2][7] = 101 * intensity / 100; 
+    rgb[35][0][7] = 215 * intensity / 100;
+    rgb[35][1][7] = 80 * intensity / 100;
+    rgb[35][2][7] = 156 * intensity / 100; 
     
-    rgb[36][0][7] = 88 * intensity / 100;
-    rgb[36][1][7] = 215 * intensity / 100;
-    rgb[36][2][7] = 101 * intensity / 100; 
+    rgb[36][0][7] = 215 * intensity / 100;
+    rgb[36][1][7] = 80 * intensity / 100;
+    rgb[36][2][7] = 156 * intensity / 100; 
     
-    rgb[37][0][7] = 88 * intensity / 100;
-    rgb[37][1][7] = 215 * intensity / 100;
-    rgb[37][2][7] = 101 * intensity / 100; 
+    rgb[37][0][7] = 215 * intensity / 100;
+    rgb[37][1][7] = 80 * intensity / 100;
+    rgb[37][2][7] = 156 * intensity / 100; 
     
     rgb[38][0][7] = 0 * intensity / 100;
     rgb[38][1][7] = 0 * intensity / 100;
@@ -3836,17 +3836,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[42][1][7] = 0 * intensity / 100;
     rgb[42][2][7] = 0 * intensity / 100; 
     
-    rgb[43][0][7] = 88 * intensity / 100;
-    rgb[43][1][7] = 215 * intensity / 100;
-    rgb[43][2][7] = 101 * intensity / 100; 
+    rgb[43][0][7] = 215 * intensity / 100;
+    rgb[43][1][7] = 80 * intensity / 100;
+    rgb[43][2][7] = 156 * intensity / 100; 
     
-    rgb[44][0][7] = 88 * intensity / 100;
-    rgb[44][1][7] = 215 * intensity / 100;
-    rgb[44][2][7] = 101 * intensity / 100; 
+    rgb[44][0][7] = 215 * intensity / 100;
+    rgb[44][1][7] = 80 * intensity / 100;
+    rgb[44][2][7] = 156 * intensity / 100; 
     
-    rgb[45][0][7] = 88 * intensity / 100;
-    rgb[45][1][7] = 215 * intensity / 100;
-    rgb[45][2][7] = 101 * intensity / 100; 
+    rgb[45][0][7] = 215 * intensity / 100;
+    rgb[45][1][7] = 80 * intensity / 100;
+    rgb[45][2][7] = 156 * intensity / 100; 
     
     rgb[46][0][7] = 0 * intensity / 100;
     rgb[46][1][7] = 0 * intensity / 100;
@@ -3868,17 +3868,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[50][1][7] = 0 * intensity / 100;
     rgb[50][2][7] = 0 * intensity / 100; 
     
-    rgb[51][0][7] = 88 * intensity / 100;
-    rgb[51][1][7] = 215 * intensity / 100;
-    rgb[51][2][7] = 101 * intensity / 100; 
+    rgb[51][0][7] = 215 * intensity / 100;
+    rgb[51][1][7] = 80 * intensity / 100;
+    rgb[51][2][7] = 156 * intensity / 100; 
     
-    rgb[52][0][7] = 88 * intensity / 100;
-    rgb[52][1][7] = 215 * intensity / 100;
-    rgb[52][2][7] = 101 * intensity / 100; 
+    rgb[52][0][7] = 215 * intensity / 100;
+    rgb[52][1][7] = 80 * intensity / 100;
+    rgb[52][2][7] = 156 * intensity / 100; 
     
-    rgb[53][0][7] = 88 * intensity / 100;
-    rgb[53][1][7] = 215 * intensity / 100;
-    rgb[53][2][7] = 101 * intensity / 100; 
+    rgb[53][0][7] = 215 * intensity / 100;
+    rgb[53][1][7] = 80 * intensity / 100;
+    rgb[53][2][7] = 156 * intensity / 100; 
     
     rgb[54][0][7] = 0 * intensity / 100;
     rgb[54][1][7] = 0 * intensity / 100;
@@ -4012,9 +4012,9 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[85][1][7] = 0 * intensity / 100;
     rgb[85][2][7] = 0 * intensity / 100; 
     
-    rgb[86][0][7] = 88 * intensity / 100;
-    rgb[86][1][7] = 215 * intensity / 100;
-    rgb[86][2][7] = 101 * intensity / 100; 
+    rgb[86][0][7] = 215 * intensity / 100;
+    rgb[86][1][7] = 80 * intensity / 100;
+    rgb[86][2][7] = 156 * intensity / 100; 
     
     rgb[87][0][7] = 0 * intensity / 100;
     rgb[87][1][7] = 0 * intensity / 100;
@@ -4028,21 +4028,21 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[89][1][7] = 0 * intensity / 100;
     rgb[89][2][7] = 0 * intensity / 100; 
     
-    rgb[90][0][7] = 88 * intensity / 100;
-    rgb[90][1][7] = 215 * intensity / 100;
-    rgb[90][2][7] = 101 * intensity / 100; 
+    rgb[90][0][7] = 215 * intensity / 100;
+    rgb[90][1][7] = 80 * intensity / 100;
+    rgb[90][2][7] = 156 * intensity / 100; 
     
-    rgb[91][0][7] = 88 * intensity / 100;
-    rgb[91][1][7] = 215 * intensity / 100;
-    rgb[91][2][7] = 101 * intensity / 100; 
+    rgb[91][0][7] = 215 * intensity / 100;
+    rgb[91][1][7] = 80 * intensity / 100;
+    rgb[91][2][7] = 156 * intensity / 100; 
     
-    rgb[92][0][7] = 88 * intensity / 100;
-    rgb[92][1][7] = 215 * intensity / 100;
-    rgb[92][2][7] = 101 * intensity / 100; 
+    rgb[92][0][7] = 215 * intensity / 100;
+    rgb[92][1][7] = 80 * intensity / 100;
+    rgb[92][2][7] = 156 * intensity / 100; 
     
-    rgb[93][0][7] = 88 * intensity / 100;
-    rgb[93][1][7] = 215 * intensity / 100;
-    rgb[93][2][7] = 101 * intensity / 100; 
+    rgb[93][0][7] = 215 * intensity / 100;
+    rgb[93][1][7] = 80 * intensity / 100;
+    rgb[93][2][7] = 156 * intensity / 100; 
     
     rgb[94][0][7] = 0 * intensity / 100;
     rgb[94][1][7] = 0 * intensity / 100;
@@ -4060,17 +4060,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[97][1][7] = 0 * intensity / 100;
     rgb[97][2][7] = 0 * intensity / 100; 
     
-    rgb[98][0][7] = 88 * intensity / 100;
-    rgb[98][1][7] = 215 * intensity / 100;
-    rgb[98][2][7] = 101 * intensity / 100; 
+    rgb[98][0][7] = 215 * intensity / 100;
+    rgb[98][1][7] = 80 * intensity / 100;
+    rgb[98][2][7] = 156 * intensity / 100; 
     
-    rgb[99][0][7] = 88 * intensity / 100;
-    rgb[99][1][7] = 215 * intensity / 100;
-    rgb[99][2][7] = 101 * intensity / 100; 
+    rgb[99][0][7] = 215 * intensity / 100;
+    rgb[99][1][7] = 80 * intensity / 100;
+    rgb[99][2][7] = 156 * intensity / 100; 
     
-    rgb[100][0][7] = 88 * intensity / 100;
-    rgb[100][1][7] = 215 * intensity / 100;
-    rgb[100][2][7] = 101 * intensity / 100; 
+    rgb[100][0][7] = 215 * intensity / 100;
+    rgb[100][1][7] = 80 * intensity / 100;
+    rgb[100][2][7] = 156 * intensity / 100; 
     
     rgb[101][0][7] = 0 * intensity / 100;
     rgb[101][1][7] = 0 * intensity / 100;
@@ -4092,17 +4092,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[105][1][7] = 0 * intensity / 100;
     rgb[105][2][7] = 0 * intensity / 100; 
     
-    rgb[106][0][7] = 88 * intensity / 100;
-    rgb[106][1][7] = 215 * intensity / 100;
-    rgb[106][2][7] = 101 * intensity / 100; 
+    rgb[106][0][7] = 215 * intensity / 100;
+    rgb[106][1][7] = 80 * intensity / 100;
+    rgb[106][2][7] = 156 * intensity / 100; 
     
-    rgb[107][0][7] = 88 * intensity / 100;
-    rgb[107][1][7] = 215 * intensity / 100;
-    rgb[107][2][7] = 101 * intensity / 100; 
+    rgb[107][0][7] = 215 * intensity / 100;
+    rgb[107][1][7] = 80 * intensity / 100;
+    rgb[107][2][7] = 156 * intensity / 100; 
     
-    rgb[108][0][7] = 88 * intensity / 100;
-    rgb[108][1][7] = 215 * intensity / 100;
-    rgb[108][2][7] = 101 * intensity / 100; 
+    rgb[108][0][7] = 215 * intensity / 100;
+    rgb[108][1][7] = 80 * intensity / 100;
+    rgb[108][2][7] = 156 * intensity / 100; 
     
     rgb[109][0][7] = 0 * intensity / 100;
     rgb[109][1][7] = 0 * intensity / 100;
@@ -4124,17 +4124,17 @@ FastLED.addLeds <WS2812B, LED_DATA_PIN, GRB> (leds, NUM_LEDS).setCorrection( Typ
     rgb[113][1][7] = 0 * intensity / 100;
     rgb[113][2][7] = 0 * intensity / 100; 
     
-    rgb[114][0][7] = 88 * intensity / 100;
-    rgb[114][1][7] = 215 * intensity / 100;
-    rgb[114][2][7] = 101 * intensity / 100; 
+    rgb[114][0][7] = 215 * intensity / 100;
+    rgb[114][1][7] = 80 * intensity / 100;
+    rgb[114][2][7] = 156 * intensity / 100; 
     
-    rgb[115][0][7] = 88 * intensity / 100;
-    rgb[115][1][7] = 215 * intensity / 100;
-    rgb[115][2][7] = 101 * intensity / 100; 
+    rgb[115][0][7] = 215 * intensity / 100;
+    rgb[115][1][7] = 80 * intensity / 100;
+    rgb[115][2][7] = 156 * intensity / 100; 
     
-    rgb[116][0][7] = 88 * intensity / 100;
-    rgb[116][1][7] = 215 * intensity / 100;
-    rgb[116][2][7] = 101 * intensity / 100; 
+    rgb[116][0][7] = 215 * intensity / 100;
+    rgb[116][1][7] = 80 * intensity / 100;
+    rgb[116][2][7] = 156 * intensity / 100; 
     
     rgb[117][0][7] = 0 * intensity / 100;
     rgb[117][1][7] = 0 * intensity / 100;
